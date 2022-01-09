@@ -1,0 +1,12 @@
+.body{
+	margin: 10px;
+	font-family: arial;
+	font-size: 12px;
+	background-color: gray;
+	max-width: 100%;
+    overflow-x: hidden;
+    padding: 1em;
+    }
+#cabessa{
+	background-color: red;
+}
