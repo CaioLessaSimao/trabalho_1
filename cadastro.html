@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
-
-
-
+	
 	<header>
 		<title>OGGRM</title>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
 	</header>
 
 	<body>
 
 		<div class="topnav"><nav>
 			<ul>
-				<li><a class="active" href="cadastro.html">Cadastro</a></li>
+				<li><figure><img id="logo" src="imagem/detran2.png"></figure></li>
+				<li><a class="active" zhref="cadastro.html">Cadastro</a></li>
 				<li><a href="consulta.html">Consulta</a></li>
 				<li><a href="sobre.html">Sobre</a></li>
 				<li><a href="index.html">Sair</a></li>
@@ -22,11 +22,35 @@
 
 		<div class ="header_content">
 
+			
 			<div class="header_slogan">Orgão Governamental Genérico Responsável pelos Motoristas</div>
 
 		</div>
+		
 
-		<article></article>
+		<div class="cadastro">
+
+			<div class='cadastro_form'>
+				<form action = 'consulta.html'>
+
+					<label for = 'nome'>Insira o nome do motorista:</label>
+                	<input type = 'text' name = 'nome'/><br>
+                
+					<label for = 'email'>Insira o email do motorista:</label>
+					<input type = 'email' name = 'email'/><br>
+
+					<label for = 'cpf'>Insira o cpf do motorista:</label>
+					<input type = 'text' name = 'cpf'/><br>
+
+					<label for = 'tel'>Insira o telefone do motorista:</label>
+					<input type = 'text' name = 'tel'/><br>
+
+					<button type = 'submit' name = 'btn_cadastro'>Cadastrar</button>	
+								
+				</form>
+			</div>
+
+		</div>
 
 		<footer>Todos os direitos reservados</footer>
 
