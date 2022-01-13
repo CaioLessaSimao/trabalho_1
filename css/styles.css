@@ -49,6 +49,8 @@ body{
 }
 
 
+
+
 /* Barra de Navegação*/
 
 .topnav {
@@ -97,11 +99,12 @@ li{
 
 /* Login */
 .login{
-    padding-top: 300px;
-    padding-bottom: 400px;
-    padding-right: 650px;
-    padding-left: 650px;
-    height: 500px;
+    height: 550px;
+    width: 100%;
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+    background:#FAFAFA;
     
 }
 
@@ -109,6 +112,11 @@ li{
 
     padding-top: 120px;
     padding-bottom:120px;
+    padding-left: 120px;
+    padding-right: 120px;
+
+
+    position: absolute;
     
     text-align: center;
     border: gold solid;
@@ -122,18 +130,22 @@ li{
 /* Cadastro */
 
 .cadastro{
-    padding-top: 300px;
-    padding-bottom: 400px;
-    padding-right: 650px;
-    padding-left: 650px;
-    height: 500px;
-    
+    height: 550px;
+    width: 100%;
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+    background:#FAFAFA;
 }
 
 .cadastro_form{
 
     padding-top: 120px;
     padding-bottom:120px;
+    padding-left: 120px;
+    padding-right: 120px;
+
+    position: absolute;
     
     text-align: center;
     border: gold solid;
@@ -160,6 +172,7 @@ li{
     padding-bottom:120px;
     text-align: center;
     border: gold solid;
+    position: absolute;
     box-shadow:
         0px 3px 5px -1px rgba(35, 0, 116, 0.5),
         0px 6px 10px 0px rgba(35, 0, 116, 0.5),
